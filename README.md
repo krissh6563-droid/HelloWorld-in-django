@@ -34,6 +34,6 @@ python manage.py startapp AppName
 ## Explain the Django project directory structure
 * init.py – It’s an empty Python file. This file tells the Python interpreter that this directory is a package and that the presence of the __init.py_ file makes it a Python project.
 * manage.py – This file is used to interact with your project from the command line utility.
-    - manage.py runserver
-    - manage.py makemigration
-    - manage.py migrate’ etc
+    ```python manage.py runserver``` 
+    ```python manage.py makemigrations```
+    ```python manage.py migrate```
